@@ -54,6 +54,7 @@ elif uploaded_file is not None:
         kmeans = KMeans(n_clusters=int(clusterNumber), init='k-means++')
         kmeans.fit(df[df.columns[1:3]])
         df['cluster_label'] = kmeans.fit_predict(df[df.columns[1:3]])
+        # df['cluster_label'] += 1
         centers = kmeans.cluster_centers_
         labels = kmeans.predict(df[df.columns[1:3]])
 
