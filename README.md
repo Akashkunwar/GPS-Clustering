@@ -1,4 +1,4 @@
-#GPS Clustering
+# GPS Clustering
 
 Your code seems well-structured and organized for creating a Streamlit app to visualize and cluster GPS coordinates. Here are a few suggestions and potential improvements:
 
